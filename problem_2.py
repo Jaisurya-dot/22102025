@@ -9,12 +9,16 @@
 
 def reverse_string_inbuilt(str1):
     reversed_str = str1[::-1]
-    return reversed_str
+    print(reversed_str)
+
 def reverse_string_manual(str1):
     reversed_str = ""
     for char in str1:
         reversed_str = char + reversed_str
-    return reversed_str
+    print(reversed_str)
+
+reverse_string_inbuilt('Python')
+reverse_string_manual('Python')
 
 
 
